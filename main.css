@@ -38,6 +38,35 @@ body {
 .main-header {
   background-image: url("https://www.visitrenotahoe.com/wp-content/uploads/2018/06/JessBeachesHeader-1920x800.jpg");
   background-size: cover;
-  background-position: 50% 25%;
-  height: 39vh;
+  background-position: 50% 30%;
+  height: 60vh;
+}
+
+.main-header h1, .main-header h2, .search-grid p {
+  color: whitesmoke;
+}
+
+.search-grid {
+  text-align: center;
+  padding-top: 2%;
+  justify-content: center;
+  display: grid;
+  grid-template: 280px / 50% 20%;
+  grid-gap: 1%;
+}
+
+.search-grid div {
+  background: rgba(30, 53, 63, 0.72);
+  padding: 1% 2% 3% 2%;
+}
+
+.search-grid div:nth-child(2) {
+  padding: 1% 5% 3% 5%;
+}
+
+.title-head {
+  margin-top: 0;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
