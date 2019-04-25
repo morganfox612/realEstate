@@ -2,14 +2,19 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: 1.03em;
+}
+
 .image-grid {
   display: grid;
+  grid-template: 180px 180px / 20vw 20vw;
+  grid-gap: 2%;
 }
 
 .image-grid div {
   background-image: url("http://lorempixel.com/400/200/city");
-  height: 200px;
-  width: 400px;
+  background-size: cover;
 }
 
 #navbar {
@@ -69,4 +74,36 @@ body {
   font-size: 2.5em;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+
+.info-section {
+  margin-top: 3%;
+}
+
+.info-grid {
+  display: grid;
+  justify-content: center;
+  grid-template: 300px / 35% 40%;
+  grid-gap: 5%;
+  text-align: center;
+}
+
+.info-header {
+  text-align: center;
+}
+
+.info-grid p {
+  line-height: 1.6;
+}
+
+.info-grid div button {
+  margin-top: 25%
+  background: rgba(0, 0, 0, 0);
+  border-color: #fff;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 4% 8%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
