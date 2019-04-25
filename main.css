@@ -34,3 +34,10 @@ body {
   text-decoration: none;
   font-size: 20px;
 }
+
+.main-header {
+  background-image: url("https://www.visitrenotahoe.com/wp-content/uploads/2018/06/JessBeachesHeader-1920x800.jpg");
+  background-size: cover;
+  background-position: 50% 25%;
+  height: 39vh;
+}
